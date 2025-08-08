@@ -3,8 +3,8 @@ Những kiến thức học được về KNN và K_Means
 
 Sự khác nhau giữa KNN và KMeans
 
-+ Loại học máy: KNN là học không giám sát, KMean là học có giám sát
-+ Cách hoạt động: KNN tự động chia dữ liệu thành K cụm bằng cách tìm tâm cụm, còn K_Mean với 1 điểm mới tìm k điểm gần nhất trong tập huấn luyện để phân loại nhãn mới
++ Loại học máy: K_Means là học không giám sát, KNN là học có giám sát
++ Cách hoạt động: K_Means tự động chia dữ liệu thành K cụm bằng cách tìm tâm cụm, còn K_NN với 1 điểm mới tìm k điểm gần nhất trong tập huấn luyện để phân loại nhãn mới
 
 
 <img width="792" height="354" alt="image" src="https://github.com/user-attachments/assets/a1eee649-2508-4512-9748-13669a7809a4" />
