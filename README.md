@@ -19,3 +19,9 @@ Với số lượng K nhỏ có thể gây ra hiện tượng Ovefit
 
 KNN với thuật toán KD-Tree : Phù hợp với bài toán có tập dữ liệu quá lớn
 
+Cách để chọn K tối ưu cho KNN như là: Cross_Valdiation
++ Thay vì chia dữ liệu thành chỉ 1 tập huấn luyện và 1 tập kiểm tra (train/test split), Cross-Validation:
++ Chia dữ liệu thành K phần (folds) gần bằng nhau.
++ Huấn luyện mô hình K lần. Mỗi lần:
++ Chọn 1 fold làm tập kiểm tra (validation).
++ Sử dụng K-1 fold còn lại làm tập huấn luyện. Tính trung bình kết quả đánh giá (ví dụ độ chính xác) trên K lần để ước lượng hiệu suất thực sự của mô hình.
